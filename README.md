@@ -27,7 +27,8 @@ WATERFALL/
 ├── docs/                      # Carpeta para documentación adicional.
 │   └── waterfallResume.pdf    # Documentación detallada del proceso de scraping para Waterfall.
 │
-├── waterfallMain.py           # Script de Python que realiza el scraping de la página Waterfall.
+├── scr/
+│   └── waterfallMain.ipynb    # Script de Python que realiza el scraping de la página Waterfall.
 │
 ├── .gitignore                 # Archivo para ignorar archivos no deseados en el repositorio.
 │
