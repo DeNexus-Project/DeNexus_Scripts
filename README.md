@@ -1,5 +1,5 @@
-# Icsstrive Scraping.
-Este proyecto tiene como objetivo realizar el **scraping** de la página web **Icsstrive** para extraer datos relevantes que serán procesados y analizados posteriormente. A continuación, se detallan las responsabilidades, la configuración del entorno y la estructura del proyecto.
+# CISSM Scraping.
+Este proyecto tiene como objetivo realizar el **scraping** de la página web **CISSM** para extraer datos relevantes que serán procesados y analizados posteriormente. A continuación, se detallan las responsabilidades, la configuración del entorno y la estructura del proyecto.
 
 ## Requisitos.
 ### Creación del Entorno Virtual.
@@ -19,16 +19,16 @@ pip install -r requirements.txt
 ### Estructura de Carpetas.
 El proyecto está organizado de la siguiente manera:
 ```python
-WATERFALL/
+CISSM/
 │
 ├── data/                      # Carpeta para almacenar los datos extraídos.
-│   └── ICSSTRIVE.csv     # Archivo CSV con los datos extraídos y procesados.
+│   └── CISSM.csv              # Archivo CSV con los datos extraídos y procesados.
 │
 ├── docs/                      # Carpeta para documentación adicional.
-│   └── icsstriveResume.pdf    # Documentación detallada del proceso de scraping para Waterfall.
+│   └── cissmResume.pdf        # Documentación detallada del proceso de scraping.
 │
 ├── scr/
-│   └── icsstriveMain.ipynb    # Script de Python que realiza el scraping de la página Waterfall.
+│   └── cissmMain.ipynb        # Script de Python que realiza el scraping de la página.
 │
 ├── .gitignore                 # Archivo para ignorar archivos no deseados en el repositorio.
 │
